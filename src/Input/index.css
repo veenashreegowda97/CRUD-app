@@ -1,0 +1,11 @@
+.input-wrapper {
+  cursor: pointer;
+  background-color: transparent;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid black 1px;
+  padding: 3px 10px;
+  font-size: 1rem;
+}
