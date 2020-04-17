@@ -1,0 +1,63 @@
+table {
+  width: 100%;
+}
+
+table,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+thead {
+  display: table;
+  width: calc(100%);
+  background: #0186ff;
+  color: white;
+}
+
+tbody {
+  display: block;
+  max-height: 30rem;
+  overflow-y: scroll;
+  background: orange;
+}
+
+th,
+td {
+  width: 10%;
+  padding: 0.8rem;
+  word-break: break-all;
+  text-align: center;
+}
+
+tr {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+td {
+  text-align: center;
+  border-bottom: none;
+  border-left: none;
+}
+.delete-icon {
+  color: red;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.table-header {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    width: 0;
+    padding: 0;
+    word-break: break-all;
+    border: 1px solid #dddddd;
+    text-align: center;
+  }
+}
