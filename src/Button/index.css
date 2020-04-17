@@ -1,0 +1,15 @@
+.button-wrapper {
+  border-radius: 7px;
+  margin-right: 18px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  background-color: #0186ff;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+.disable_button {
+  background-color: grey;
+  cursor: none;
+}
